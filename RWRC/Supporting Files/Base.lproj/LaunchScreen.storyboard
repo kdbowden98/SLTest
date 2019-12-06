@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bHK-55-g4C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="5CQ-Fx-fdG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="739"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="SL" translatesAutoresizingMaskIntoConstraints="NO" id="RXa-gE-Dlw">
+                                <rect key="frame" x="8" y="31" width="359" height="153"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="5CQ-Fx-fdG" firstAttribute="bottom" secondItem="yjk-qc-Kou" secondAttribute="bottom" constant="72" id="64N-Wp-EDn"/>
+                            <constraint firstItem="5CQ-Fx-fdG" firstAttribute="centerX" secondItem="bHK-55-g4C" secondAttribute="centerX" id="6OV-zb-X0Y"/>
+                            <constraint firstItem="RXa-gE-Dlw" firstAttribute="leading" secondItem="yjk-qc-Kou" secondAttribute="leading" constant="8" id="Hox-ng-uiS"/>
+                            <constraint firstItem="5CQ-Fx-fdG" firstAttribute="leading" secondItem="yjk-qc-Kou" secondAttribute="leading" id="Izb-fg-anL"/>
+                            <constraint firstItem="RXa-gE-Dlw" firstAttribute="centerX" secondItem="5CQ-Fx-fdG" secondAttribute="centerX" id="LJ9-UO-snf"/>
+                            <constraint firstItem="RXa-gE-Dlw" firstAttribute="top" secondItem="yjk-qc-Kou" secondAttribute="top" constant="31" id="N71-pB-bn6"/>
+                            <constraint firstItem="yjk-qc-Kou" firstAttribute="bottom" secondItem="RXa-gE-Dlw" secondAttribute="bottom" constant="483" id="Zbe-qP-y0D"/>
+                            <constraint firstItem="5CQ-Fx-fdG" firstAttribute="top" secondItem="yjk-qc-Kou" secondAttribute="top" id="bY7-sy-L2a"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yjk-qc-Kou"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SL" width="480" height="169"/>
+        <image name="background" width="129.5" height="97"/>
+    </resources>
+</document>
